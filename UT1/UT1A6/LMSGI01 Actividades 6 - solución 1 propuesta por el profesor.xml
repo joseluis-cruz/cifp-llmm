@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos_parking nombre="Parking Central" localidad="Cartagena" fecha="2020-10-05T00:00:00Z">
+    <tipos_abono>
+        <tipo_abono nombre="completo" importe_mensual="50.00" divisa="EUR" desde="07:00" hasta="21:00"/>
+        <tipo_abono nombre="medio mañana" importe_mensual="30.00" divisa="EUR" desde="07:00" hasta="13:00"/>
+        <tipo_abono nombre="medio tarde" importe_mensual="30.00" divisa="EUR" desde="13:00" hasta="21:00"/>
+    </tipos_abono>
+    <abonados>
+        <abonado numero="1" nombre="Juan Pérez Pérez" telefono="968123456" tipo="completo">
+            <tarjeta numero_serie="1234567890" estado="activa" matricula="MU1234BB"></tarjeta>
+            <tarjeta numero_serie="1234567891" estado="parada temporalmente"></tarjeta>
+        </abonado>
+    </abonados>
+    <accesos>
+        <accesos_ticket>
+            <acceso numero="2" matricula="1234BBC" entrada="2020-10-04T07:45:00Z" salida="2020-10-04T09:15:00Z" importe="2.57"></acceso>
+        </accesos_ticket>
+        <accesos_abonado>
+            <acceso numero="1" matricula="MU1234BB" entrada="2020-10-04T05:30:00Z" tarjeta="1234567890"></acceso>
+        </accesos_abonado>
+    </accesos>
+</datos_parking>
